@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-jwt-token-lib',
+  selector: 'jwt-token-lib',
   template: `
     <p>
       jwt-token-lib works!
