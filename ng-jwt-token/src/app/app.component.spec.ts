@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'project-ng-jwt-token'`, () => {
+  it(`should have as title 'ng-jwt-token'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('project-ng-jwt-token');
+    expect(app.title).toEqual('ng-jwt-token');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to project-ng-jwt-token!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to ng-jwt-token!');
   });
 });

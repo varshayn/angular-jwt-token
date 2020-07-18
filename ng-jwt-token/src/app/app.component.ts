@@ -7,7 +7,7 @@ import { JwtTokenLibService } from 'projects/jwt-token-lib/src/public_api';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'project-ng-jwt-token';
+  title = 'ng-jwt-token';
 
   constructor(private _jwtService: JwtTokenLibService) {
 

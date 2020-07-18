@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "project-ng-jwt-token": {
+    "ng-jwt-token": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/project-ng-jwt-token",
+            "outputPath": "dist/ng-jwt-token",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "project-ng-jwt-token:build"
+            "browserTarget": "ng-jwt-token:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "project-ng-jwt-token:build:production"
+              "browserTarget": "ng-jwt-token:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "project-ng-jwt-token:build"
+            "browserTarget": "ng-jwt-token:build"
           }
         },
         "test": {
@@ -106,7 +106,7 @@
         }
       }
     },
-    "project-ng-jwt-token-e2e": {
+    "ng-jwt-token-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -115,11 +115,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "project-ng-jwt-token:serve"
+            "devServerTarget": "ng-jwt-token:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "project-ng-jwt-token:serve:production"
+              "devServerTarget": "ng-jwt-token:serve:production"
             }
           }
         },
@@ -170,5 +170,5 @@
       }
     }
   },
-  "defaultProject": "project-ng-jwt-token"
+  "defaultProject": "ng-jwt-token"
 }
