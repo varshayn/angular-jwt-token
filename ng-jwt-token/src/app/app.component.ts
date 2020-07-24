@@ -20,4 +20,5 @@ export class AppComponent implements OnInit {
     /* Invalid structure test  */
     this._jwtService.isTokenValid('abc.efg');
   }
+
 }
