@@ -1,6 +1,6 @@
 {
   "name": "ng-jwt-token",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,15 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "keywords": [
+    "jwt",
+    "jwtTokens",
+    "accessToken",
+    "refreshToken",
+    "authentication",
+    "auth",
+    "tokens"
+  ],
   "private": false,
   "dependencies": {
     "@angular/animations": "~7.2.0",
